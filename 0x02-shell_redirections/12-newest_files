@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head -n 11
+ls -lt --time=atime --format=single-column | grep -v '^d' | head -n 10
