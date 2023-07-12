@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(printf "%x" "$((0xBINARY))")"
+echo "$(printf "%x" "$((0x$BINARY))")"
