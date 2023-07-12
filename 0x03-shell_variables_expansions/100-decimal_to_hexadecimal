@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((0X#DECIMAL))"
+printf "%x" "$((10#$BINARY))"
